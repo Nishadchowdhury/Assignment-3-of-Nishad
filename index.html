@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
     <!-- tailwind's style -->
-    <script src="https://cdn.*tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link
       rel="stylesheet"
@@ -31,14 +31,12 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
 
-    <script src="./styles/tail-css-js.js"></script>
-
     <!-- my custom style  -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="mb-28">
-      <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 container mx-auto">
+    <header class="lg:mb-28 mb-14 ">
+      <nav class="bg-white fixed-top border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 container mx-auto">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
           <a href="#" class="flex">
             <img src="./ifiles/icons/logo-middle.png" height="60px" width="60px" alt="" />
@@ -81,21 +79,21 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >About</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#dinner"
                   class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >Services</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#priceing"
                   class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >Pricing</a
                 >
@@ -116,7 +114,7 @@
       <!-- -------------
      carousel start 
      ------------ -->
-      <div class="container mx-auto">
+      <div class="container mx-auto mt-20">
         <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
           <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
             <button
@@ -144,8 +142,8 @@
             <div class="carousel-item active relative float-left w-full">
               <img src="./ifiles/carou-image/1 .jpg" class="block w-full" alt="..." />
               <div class="carousel-caption absolute text-center">
-                <h1 class="text-5xl lg:w-auto w-1/3 uppercase">one of the largest convention center in Bangladesh</h1>
-                <h5 class="text-xl bg-slate-400 bg-opacity-30 lg:inline-block md:inline-block">It's perfact</h5>
+                <h1 class="text-5xl lg:w-auto w-1/3 hidden lg:block uppercase">one of the largest convention center in Bangladesh</h1>
+                <h5 class="text-xl bg-slate-400 bg-opacity-30 hidden lg:inline-block md:inline-block">It's perfact</h5>
                 <br />
                 <p class="bg-slate-400 bg-opacity-30 inline-block">For Romantic and gentleman .</p>
                 <br />
@@ -161,8 +159,8 @@
             </div>
             <div class="carousel-item relative float-left w-full">
               <img src="/ifiles/carou-image/2.jpg" class="block w-full" alt="..." />
-              <div class="carousel-caption hidden md:block absolute text-center">
-                <h1 class="text-5xl uppercase">open for your dream functions of your friends and families</h1>
+              <div class="carousel-caption  md:block  absolute text-center">
+                <h1 class="text-5xl hidden lg:block md:block uppercase">open for your dream functions of your friends and families</h1>
                 <h5 class="text-xl bg-slate-400 bg-opacity-30 inline-block">Nice hall romes</h5>
                 <br />
                 <p class="bg-slate-400 bg-opacity-30 inline-block">
@@ -181,8 +179,8 @@
 
             <div class="carousel-item relative float-left w-full">
               <img src="./ifiles/carou-image/3.jpg" class="block w-full" alt="..." />
-              <div class="carousel-caption hidden md:block absolute text-center">
-                <h1 class="text-5xl uppercase underline decoration-sky-500">
+              <div class="carousel-caption  md:block absolute text-center">
+                <h1 class="text-5xl hidden lg:block md:block uppercase underline decoration-sky-500">
                   Three different exclusive Halls MUGHAL, NAWAB and MAHAL
                 </h1>
                 <h5 class="text-xl bg-slate-400 bg-opacity-30 inline-block">An other Nice hall rome</h5>
@@ -268,12 +266,12 @@
     </header>
     <!-- ------------------------------ header end  -->
 
-    <main>
-      <section class="container mx-auto mb-24">
+    <main >
+      <section id="dinner" class="container mx-auto mb-24">
         <div class="flex flex-col lg:flex-row md:flex-col-reverse lg:gap-20 mx-14">
           <!-- --------------------------- image of our Facilities  -->
           <div class="lg:w-1/2 md:w-full w-full">
-            <img class="rounded-lg md:w-full" src="./ifiles/other images/candle light dinner.jpg" alt="" />
+            <img class="rounded-lg w-full md:w-full" src="./ifiles/other images/candle light dinner.jpg" alt="" />
           </div>
           <!-- --------------------------- info of our Facilities  -->
           <div class="lg:w-1/2 md:w-full flex flex-col relative justify-center">
@@ -326,7 +324,7 @@
       </section>
       <!-- ----------------------------- our Package start  -->
 
-      <section class="container mx-auto">
+      <section id="priceing" class="container mx-auto">
         <h1
           class="text-center font-semibold text-3xl leading-10 text-black mb-36"
           style="font-family: 'Poppins', sans-serif"
@@ -490,7 +488,7 @@
 
       <!-- --------------------------Frequently Asked Questions  -->
 
-      <section class="container mx-auto mt-12 mb-28">
+      <section id="about" class="container mx-auto mt-12 mb-28">
         <h1 class="text-4xl font-semibold leading-10 text-center mb-24" style="font-family: 'Poppins', sans-serif">
           Frequently Asked Questions
         </h1>
@@ -639,10 +637,10 @@
         </div>
 
         <div class="w-1/2 mx-auto felx-row justify-center items-center">
-          <h2 class="m-auto font-medium text-lg leading-7 text-center block text-gray-300">Get the App</h2>
-         <div class="lg:w-3/12 m-auto">
-          <a href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US" target="_blank"><img class="w-full mb-4 " src="./ifiles/other images/get app on play.jpg" alt=""></a>
-          <a href="https://apps.apple.com/us/app/facebook/id284882215" target="_blank"><img class="w-full" src="./ifiles/other images/get app in apple.png" alt=""></a>
+          <h2 class="m-auto md:w-5/12 font-medium text-lg leading-7 text-center block text-gray-300">Get the App</h2>
+         <div class="lg:w-3/12 md:w-5/12 m-auto w-3/12">
+          <a class="lg:w-8/12  " href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US" target="_blank"><img class="w-full mb-4 " src="./ifiles/other images/get app on play.jpg" alt=""></a>
+          <a class="lg:w-8/12 " href="https://apps.apple.com/us/app/facebook/id284882215" target="_blank"><img class="w-full " src="./ifiles/other images/get app in apple.png" alt=""></a>
          </div>
         
         </div>
@@ -651,5 +649,6 @@
     
     </footer>
   </body>
+  <!-- this for tailwind's accordion Activity -->
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </html>
