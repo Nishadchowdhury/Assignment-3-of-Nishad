@@ -60,3 +60,17 @@
   background-color: #6574cd; /*.bg-indigo*/
   color: #f8fafc; /*.text-grey-lightest*/
 }
+
+
+
+@media (min-width: 1536px){
+  #floating-div{
+  right: 31%;
+  top: -65px;
+}
+}
+#tip{
+  position: absolute;
+  right: 15%;
+  top: -3%;
+}
