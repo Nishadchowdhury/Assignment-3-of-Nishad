@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./ifiles/icons/logo-middle.png" type="image/x-icon" />
     <title>JFP Convention Center</title>
     <script src="https://kit.fontawesome.com/b2cee46726.js" crossorigin="anonymous"></script>
+
     <!-- fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -275,10 +276,35 @@
             <img class="rounded-lg md:w-full" src="./ifiles/other images/candle light dinner.jpg" alt="" />
           </div>
           <!-- --------------------------- info of our Facilities  -->
-          <div class="lg:w-1/2 md:w-full flex flex-col justify-center">
+          <div class="lg:w-1/2 md:w-full flex flex-col relative justify-center">
             <h1 class="font-bold text-4xl mb-8 text-center lg:text-left" style="font-family: 'Poppins', sans-serif">
               candle light dinner .
             </h1>
+            
+            <!-- ------------------------toast start  -->
+            <div class="alert-footer absolute w-10/12 left-10 lg:top-3 lg:left-56 md:w-7/12 lg:w-1/2 ">
+              <input type="checkbox" class="hidden" id="footeralert">
+          
+              <div class="flex items-center justify-between w-full p-2 bg-blue-500 shadow text-white">
+               <p> Any Question about it ?
+                <a href="">
+                  <button class=" bg-white rounded-2xl py-1 px-2 ">
+                    <h1 class="text-blue-700">Answer</h1>
+                  </button>
+                </a>
+          
+               </p>
+                <label class="close cursor-pointer" title="close" for="footeralert">
+                  <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                    <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+                  </svg>
+                </label>
+              </div>
+            </div>
+          
+
+            <!-- ------------------------toast end  -->
+
             <p
               class="font-bold text-base leading-7 mx-auto text-center lg:mx-0 lg:text-left text-gray-400 md:w-9/12 lg:w-3/4"
               style="font-family: 'Poppins', sans-serif"
@@ -464,7 +490,7 @@
 
       <!-- --------------------------Frequently Asked Questions  -->
 
-      <section class="container mt-12">
+      <section class="container mt-12 mb-28">
         <h1 class="text-4xl font-semibold leading-10 text-center mb-24" style="font-family: 'Poppins', sans-serif">
           Frequently Asked Questions
         </h1>
@@ -482,7 +508,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Why Who it's luxurious .
+                    Why it's so luxurious .
                   </button>
                 </h2>
                 <div
@@ -579,14 +605,30 @@
           </div>
         </div>
       </section>
+      <!-- ------------------------toast section start  -->
+
+    
     </main>
     <!-- ------------------------------------ main end  -->
-    <footer></footer>
+    <footer class="container  mx-auto bg-black  ">
 
-    <br />
-    <br /><br />
-    <br /><br />
-    <br />
+      <div class="flex m-auto justify-center items-center h-52  ">
+        <div class="m-auto w-1/2">
+          <p class="text-gray-300 text-center font-normal text-sm"> &copy; 2022 . All rights reserved</p>
+        </div>
+
+        <div class="w-1/2 mx-auto felx-row justify-center items-center">
+          <h2 class="m-auto font-medium text-lg leading-7 text-center block text-gray-300">Get the App</h2>
+         <div class="lg:w-3/12 m-auto">
+          <a href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US" target="_blank"><img class="w-full mb-4 " src="./ifiles/other images/get app on play.jpg" alt=""></a>
+          <a href="https://apps.apple.com/us/app/facebook/id284882215" target="_blank"><img class="w-full" src="./ifiles/other images/get app in apple.png" alt=""></a>
+         </div>
+        
+        </div>
+      </div>
+
+    
+    </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </html>
